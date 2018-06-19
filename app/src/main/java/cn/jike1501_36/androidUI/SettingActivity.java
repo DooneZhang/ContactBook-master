@@ -12,7 +12,9 @@ import android.widget.Toast;
 
 
 import cn.jike1501_36.R;
-
+/**
+ * Created by DoonZhang on 2018/6/19.
+ */
 public class SettingActivity extends AppCompatActivity {
     private EditText editText;
     int recallTime;

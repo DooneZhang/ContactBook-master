@@ -13,7 +13,9 @@ import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.view.WindowManager;
 
-
+/**
+ * Created by DoonZhang on 2018/6/19.
+ */
 public class MyService extends Service {
 
     private String phone = "";

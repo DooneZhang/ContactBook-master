@@ -5,7 +5,7 @@ import cn.jike1501_36.model.Contact;
 import cn.jike1501_36.model.DBAdapter;
 
 /**
- * Created by dell on 2016/10/10.
+ * Created by DoonZhang on 2018/6/19.
  */
 public class Controller {
     private static DBAdapter dbAdapter;
@@ -20,6 +20,7 @@ public class Controller {
         dbAdapter = new DBAdapter(context);
         dbAdapter.open();
     }
+
 
     //添加
     public void add(Contact contact) {

@@ -10,7 +10,7 @@ import android.provider.MediaStore;
 import java.io.File;
 
 /**
- * Created by dell on 2017/2/20.
+ * Created by DoonZhang on 2018/6/19.
  */
 
 public class PhotoHelper {

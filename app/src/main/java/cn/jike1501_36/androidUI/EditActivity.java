@@ -24,7 +24,9 @@ import cn.jike1501_36.R;
 import cn.jike1501_36.controller.Controller;
 import cn.jike1501_36.model.Contact;
 import cn.jike1501_36.utils.PhotoHelper;
-
+/**
+ * Created by DoonZhang on 2018/6/19.
+ */
 public class EditActivity extends AppCompatActivity {
     private String name;
     private String phone;

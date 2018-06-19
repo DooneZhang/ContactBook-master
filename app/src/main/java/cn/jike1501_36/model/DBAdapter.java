@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 
 /**
- * Created by dell on 2016/10/10.
+ * Created by DoonZhang on 2018/6/19.
  */
 public class DBAdapter {
 
@@ -95,6 +95,28 @@ public class DBAdapter {
         newValues.put(KEY_COMPANY, contact.getCompany());
         return db.insert(DB_TABLE, null, newValues);
     }
+
+    /**
+     * 默认联系人
+     *
+     * @param contact
+     * @return
+     */
+    public long insert_default(Contact contact) {
+        ContentValues newValues = new ContentValues();
+        newValues.put(KEY_NAME, "张三");
+        newValues.put(KEY_NAME, "李四");
+        newValues.put(KEY_NAME, "王五");
+        newValues.put(KEY_NAME, "赵六");
+        newValues.put(KEY_PHONE, "110");
+        newValues.put(KEY_PHONE, "111");
+        newValues.put(KEY_PHONE, "112");
+        newValues.put(KEY_PHONE, "113");
+        db.close();
+        return db.insert(DB_TABLE, null, newValues);
+
+    }
+
 
     /**
      * 删除联系人

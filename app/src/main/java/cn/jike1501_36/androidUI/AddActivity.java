@@ -25,7 +25,9 @@ import cn.jike1501_36.R;
 import cn.jike1501_36.controller.Controller;
 import cn.jike1501_36.model.Contact;
 import cn.jike1501_36.utils.PhotoHelper;
-
+/**
+ * Created by DoonZhang on 2018/6/19.
+ */
 public class AddActivity extends AppCompatActivity {
     private EditText et_name;
     private EditText et_phone;
@@ -58,7 +60,7 @@ public class AddActivity extends AppCompatActivity {
 
     public void sure(View v) {
         name = et_name.getText().toString().trim();
-         phone = et_phone.getText().toString().trim();
+        phone = et_phone.getText().toString().trim();
         phone2 = et_phone2.getText().toString().trim();
         email = et_email.getText().toString().trim();
         sex = et_sex.getText().toString().trim();

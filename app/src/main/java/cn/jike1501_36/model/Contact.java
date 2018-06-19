@@ -1,7 +1,7 @@
 package cn.jike1501_36.model;
 
 /**
- * Created by dell on 2016/10/10.
+ * Created by DoonZhang on 2018/6/19.
  */
 public class Contact {
     private String name;

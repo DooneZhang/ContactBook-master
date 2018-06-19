@@ -29,7 +29,9 @@ import cn.jike1501_36.R;
 import cn.jike1501_36.controller.Controller;
 import cn.jike1501_36.model.Contact;
 import cn.jike1501_36.service.MyService;
-
+/**
+ * Created by DoonZhang on 2018/6/19.
+ */
 
 public class LookActivity extends AppCompatActivity {
     private TextView tv_name;

@@ -24,7 +24,9 @@ import cn.jike1501_36.controller.Controller;
 import cn.jike1501_36.model.Contact;
 
 import java.util.*;
-
+/**
+ * Created by DoonZhang on 2018/6/19.
+ */
 public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
     private ListView lv;
     private SearchView sv;
@@ -160,7 +162,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
             startActivity(intent);
         }
     }
-
+//搜索联系人
 protected void search(){
     final SearchView search_view = new SearchView(this);
                      search_view.setIconifiedByDefault(false);
@@ -334,26 +336,5 @@ protected void search(){
         return super.onOptionsItemSelected(item);
     }
 
-   /*
-    //菜单
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        menu.add(0, item1, 0, "设置");
 
-        return true;
-    }
-
-    //菜单列表
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case item1:
-                Intent intent = new Intent();
-                intent.setClass(MainActivity.this, SettingActivity.class);
-                MainActivity.this.startActivity(intent);
-                break;
-        }
-        return true;
-    }
-    */
 }
