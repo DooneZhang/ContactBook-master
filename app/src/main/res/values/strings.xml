@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">通讯录</string>
+    <string name="edit_name">张栋</string>
+    <string name="major_name">计科1501</string>
+    <string name="students_num">150102060136</string>
+    <string name="title_activity_settings2">Settings</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">菜单</string>
+    <string name="title_search">搜索</string>
+    <string name="action_settings">设置</string>
+    <string name="action_vip_help">帮助</string>
+    <string name="action_vip_more">更多</string>
+    <string name="title_settings">设置</string>
+    <string name="title_contact">联系人</string>
+    <string name="title_edit">添加</string>
+</resources>
