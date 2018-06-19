@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     public void onStart() {
         super.onStart();
         lv = (ListView) findViewById(R.id.listView);
-
         sv = (SearchView) findViewById(R.id.searchView);
         //lv.setTextFilterEnabled(true);//设置lv可以被过虑
         // 设置该SearchView默认是否自动缩小为图标
@@ -275,7 +274,6 @@ protected void search(){
                 new String[]{"photo", "name"}, new int[]{R.id.imageView, R.id.name}));
     }
 
-
     //监听返回键退出事件
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
@@ -295,8 +293,7 @@ protected void search(){
         return false;
     }
 
-
-
+//退出确认
     private DialogInterface.OnClickListener listener = new DialogInterface.OnClickListener() {
         public void onClick(DialogInterface dialog, int which) {
             switch (which) {
@@ -317,7 +314,6 @@ protected void search(){
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
